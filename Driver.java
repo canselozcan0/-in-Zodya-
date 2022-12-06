@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+public class Driver {
+public static void main(String[] args) {
+	int year,hesaplama;
+	Scanner input = new Scanner(System.in);
+	System.out.println("Doğum Yılınızı giriniz : ");
+	year = input.nextInt();
+	hesaplama = (year%12);
+	
+	switch(hesaplama) {
+	case 0:
+		
+			System.out.println("Çin Zodyağı Burcunuz : Maymun");
+		
+	break;
+	case 1:
+		
+			System.out.println("Çin Zodyağı Burcunuz : Horoz");
+		break;
+	case 2:
+		
+			System.out.println("Çin Zodyağı Burcunuz : Köpek");
+		break;
+	case 3:
+		
+			System.out.println("Çin Zodyağı Burcunuz : Domuz");
+		break;
+	case 4:
+			
+				System.out.println("Çin Zodyağı Burcunuz : Fare");
+			break;
+	case 5:
+			
+					System.out.println("Çin Zodyağı Burcunuz : Öküz");
+				break;
+	case 6:
+			
+						System.out.println("Çin Zodyağı Burcunuz : kaplan");
+					break;
+	case 7:
+			
+							System.out.println("Çin Zodyağı Burcunuz : tavşan");
+					break;
+	case 8:
+			
+								System.out.println("Çin Zodyağı Burcunuz : Ejderha");
+							break;
+	case 9:
+			
+									System.out.println("Çin Zodyağı Burcunuz : yılan");
+								break;
+	case 10:
+			
+										System.out.println("Çin Zodyağı Burcunuz : at");
+									break;
+	case 11:
+		
+			System.out.println("Çin Zodyağı Burcunuz : Koyun");
+		break;
+							
+	}}}
+	
+
